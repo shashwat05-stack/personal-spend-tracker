@@ -12,7 +12,7 @@ SpendWise is a modern full-stack personal finance application built with React a
 
 🔗 **Live Demo:** `YOUR_NETLIFY_URL`
 
-🔗 **GitHub:** `YOUR_GITHUB_REPO_URL`
+🔗 **GitHub:** `https://github.com/shashwat05-stack/personal-spend-tracker`
 
 ---
 
