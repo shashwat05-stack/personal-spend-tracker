@@ -28,7 +28,7 @@ SpendWise is a modern full-stack personal finance application built with React a
 
 ### Authentication
 
-![SpendWise Authentication](./screenshots/auth.png)
+![SpendWise Authentication](./screenshots/authication.png)
 
 > Replace the screenshot paths with your actual screenshots.
 
