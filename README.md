@@ -1,16 +1,130 @@
-# React + Vite
+# 💰 SpendWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Modern Personal Expense Tracker
 
-Currently, two official plugins are available:
+SpendWise is a modern full-stack personal finance application built with React and Supabase. It helps users track income and expenses, manage monthly budgets, analyze spending patterns, and securely store financial data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> 🎯 Built to provide a clean, simple, and intuitive way to understand and manage personal finances.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+🔗 **Live Demo:** `YOUR_NETLIFY_URL`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 **GitHub:** `YOUR_GITHUB_REPO_URL`
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+
+![SpendWise Dashboard](./screenshots/dashboard.png)
+
+### Analytics
+
+![SpendWise Analytics](./screenshots/analytics.png)
+
+### Authentication
+
+![SpendWise Authentication](./screenshots/auth.png)
+
+> Replace the screenshot paths with your actual screenshots.
+
+---
+
+# ✨ Features
+
+## 💰 Financial Dashboard
+
+Get an instant overview of your finances:
+
+- Available balance
+- Total income
+- Total expenses
+- Total transactions
+- Quick financial statistics
+- Savings rate
+
+---
+
+## 🧾 Transaction Management
+
+Manage your financial transactions with complete CRUD functionality.
+
+- ➕ Add transactions
+- ✏️ Edit transactions
+- 🗑️ Delete transactions
+- 🔍 Search transactions
+- 🔽 Filter by transaction type
+- 🏷️ Filter by category
+- 📅 Filter by month
+- 💵 Indian currency formatting
+
+Supported expense categories:
+
+- 🍔 Food
+- 🚕 Travel
+- 🛍️ Shopping
+- 💡 Bills
+- 📚 Education
+- 🎬 Entertainment
+- 💼 Other
+
+Supported income categories:
+
+- 💼 Salary
+- 💻 Freelance
+- 📈 Investment
+- 🎁 Gift
+- ↩️ Refund
+- 💼 Other
+
+---
+
+# 📊 Financial Analytics
+
+SpendWise converts transaction data into useful visual insights.
+
+### Spending by Category
+
+A responsive donut chart displays how expenses are distributed across categories.
+
+### Income vs Expenses
+
+Compare monthly income and expenses using an interactive chart.
+
+### Spending Insights
+
+Automatically generated statistics include:
+
+- Highest spending category
+- Monthly spending
+- Budget utilization
+- Remaining budget
+- Savings rate
+- Largest expense
+
+---
+
+# 🎯 Monthly Budget
+
+Set a monthly spending limit and track your progress.
+
+The budget dashboard displays:
+
+- Monthly budget
+- Total spent
+- Remaining budget
+- Budget utilization percentage
+- Visual progress indicator
+- Budget warnings
+
+Budget status changes automatically depending on spending:
+
+```text
+0–70%      → Healthy
+70–90%     → Warning
+90–100%    → Critical
+100%+      → Over Budget
